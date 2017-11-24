@@ -1,0 +1,17 @@
+.container {
+	margin: auto;
+	width: 80%;
+}
+
+header {
+	background-color: red;
+	margin-bottom: 2px;
+}
+
+header .sphead{
+	color: white;
+}
+
+.menu{
+	background-color: lightgray;
+}

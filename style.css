@@ -1,17 +1,82 @@
+* {
+	font-size: 20px;
+}
+
 .container {
 	margin: auto;
 	width: 80%;
 }
-
+/*_______HEADER & NAV________*/
 header {
 	background-color: red;
 	margin-bottom: 2px;
+	padding: 12px 3px;
 }
 
 header .sphead{
 	color: white;
 }
 
+header .logo{
+	vertical-align: middle;
+}
+
 .menu{
 	background-color: lightgray;
+	padding: 10px;
+	margin-bottom: 5px;
 }
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	margin-left: 15px;
+}
+/*_________HEADER & NAV END________*/
+
+/*_________PICTURES MAIN________*/
+
+.row1{
+	margin-bottom: 10px;
+	font-size: 0;
+}
+.row2{
+	margin-bottom: 10px;
+	font-size: 0;
+}
+
+.imgContainer1{
+	border: solid black 1px;
+	width: 45%;
+	display: inline-block;
+	font-size: 16px;
+}
+.imgContainer2{
+	border: solid black 1px;
+	width: 45%;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.picmain{
+	width: 100%;
+	height: 100%;
+}
+.filler{
+	width: 9%;
+	display: inline-block;
+}
+/*_________PICTURES MAIN END________*/
+
+/*_________FOOTER________*/
+
+footer{
+	padding: 12px;
+	background-color: red;
+	text-align: center;
+}
+footer .spfoot{
+	color: white;
+	vertical-align: middle;
+}
+/*_________FOOTER END________*/
